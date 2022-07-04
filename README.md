@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# Riect Redux 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Step menejemen 
 
-In the project directory, you can run:
+Dalam Rudax kita memiliki sebuah file yang akan didistribusikan dalam sebuah brangkas lalu file tersebut akan diproses, itu yang yang dinamakan sebuah step. 
+
+apa itu step ? contoh: kita memiliki sebuah folder react disana terdapat sebuah file navbar.js,App.js,dan Index.js disini memiliki 3 buah stap dimana file navbar akan mengirim sebuah data pada App.js(brangkas),App.js bertugas menyimpan data yang kemudian dikirim ke index.js lalu index.js akan memproses data tersebut.
+
+step menejemen berguna saat sebuah aplikasi atau web memiliki component file yang sudah terlalu banyak jadi kita memerlukan step menejemen pada sebuah aplikasi atau web yang kita buat 
+
+disini kita sudah tau apa itu step menejeman
+
+## Redux
+
+
+
 
 ### `npm start`
 
