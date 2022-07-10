@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { borrow } from "./BooksSlice";
+import { kurang, tambah } from "./BooksSlice";
 
 const BooksView = () => {
   const dispatch = useDispatch();
@@ -14,7 +14,8 @@ const BooksView = () => {
       <h1>BooksView</h1>
       <h1>Total Books: {totalBooksRedux}</h1>
 
-      <button onClick={() => dispatch(borrow())}>Borrow</button>
+      <button onClick={() => dispatch(kurang())}>kurang</button>
+      <button onClick={() => dispatch(tambah())}>tambah</button>
     </div>
   );
 };
